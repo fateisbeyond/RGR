@@ -1,0 +1,22 @@
+output = str(true) + str(love)
+name1_low = name1.lower()
+name2_low = name2.lower()
+name_true = name1_low + name2_low
+t = name_true.count("t")
+r = name_true.count("r")
+u = name_true.count("u")
+e = name_true.count("e")
+true = t + r + u + e
+l = name_true.count("l")
+o = name_true.count("o")
+v = name_true.count("v")
+e = name_true.count("e")
+love = l + o + v + e
+output = str(true) + str(love)
+output1 = int(output)
+if output1 >= 40 and output1 <= 50:
+  print(f"Your score is {output}, you are alright together.")
+elif output1 < 10 or output1 > 90:
+  print(f"Your score is {output}, you go together like coke and mentos.")
+else:
+  print(f"Your score is {output}.")
